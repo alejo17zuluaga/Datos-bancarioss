@@ -1,0 +1,135 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+.form-body {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px rgb(179, 179, 179);
+    margin: 10px;
+    background: rgb(241, 239, 239);
+}
+
+.form-body img {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+
+.form-body input {
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: rgb(10, 10, 10);
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top: 1px solid rgb(155, 155, 155);
+    border-bottom: 1px solid rgb(155, 155, 155);  
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-body input[type="password"] {
+    width: 37%;
+    justify-content: center;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: rgba(44, 44, 44, 0.596);
+}
+
+.form-body input:hover {
+    transition: .5s;
+    border: 1px solid rgb(0, 0, 0);;
+    color: rgb(0, 0, 0);;
+}
+
+.form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, .596);
+    transition:  all .5s ease;
+}
+
+.form-body button:hover {
+    color: #141414;
+    border: 2px solid rgba(255, 255, 255, .596);
+    background:linear-gradient(#34495e,#2c3e50);
+}
+
+.input-group{
+    width:30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.form-body a[type="loging"] {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: #0873ff;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #0873ff;
+}
+
+.form-body a:hover[type="loging"]{
+    border: 2px solid #2383ff;
+}
+
+
+.form-body input[type="pais"] {
+    display: block;
+}
+
+.form-body input[type="nombre"] {
+    width: 37%;
+    justify-content: center;
+}
+
+
+.form-body input[type="correo"] {
+    display: block;
+}
